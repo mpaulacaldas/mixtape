@@ -27,3 +27,4 @@ use_data_raw("scuse")
 
 # Set-up documentation ----------------------------------------------------
 
+use_readme_rmd()

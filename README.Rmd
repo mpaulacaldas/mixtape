@@ -1,0 +1,46 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# mixtape
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+This package contains the data sets for ["Causal Inference: The Mixtape"](http://scunning.com/mixtape.html) in an R-readable format.
+
+## Installation
+
+You can install the latest version of mixtape with:
+
+``` r
+# install.packages("remotes")
+remotes::install_github("mpaulacaldas/mixtape")
+```
+
+## Usage
+
+To see a list of the data sets included in this package, type:
+
+```{r example}
+data(package = "mixtape")
+```
+
+After you have loaded the package, you can use a data set by calling it by its name:
+
+```{r}
+library(mixtape)
+
+head(acemogluetal)
+```
+
