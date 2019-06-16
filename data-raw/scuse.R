@@ -2,6 +2,7 @@ library(haven)
 library(purrr)
 library(pdftools)
 library(stringr)
+library(usethis)
 
 # Get everything from scuse.ado -------------------------------------------
 
@@ -42,5 +43,7 @@ obj <- dta_paths %>%
 
 use_directory("data")
 
-obj %>%
-  iwalk(~ save(.x, file = paste0("data/", .y, ".rda")))
+list2env(obj, globalenv())
+
+names_obj %>%
+  walk(~ save(list = .x, file = paste0("data/", .x, ".rda")))
