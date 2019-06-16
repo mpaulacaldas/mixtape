@@ -1,0 +1,8 @@
+Package: mixtape
+Version: 0.0.0.9000
+Title: Data for 'Causal Inference: The Mixtape'
+Description: Data sets for 'Causal Inference: The Mixtape'
+Authors@R: person("Maria Paula", "Caldas", email = "mpaulacaldas@gmail.com", role = c("aut", "cre")
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
