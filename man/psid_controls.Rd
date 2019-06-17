@@ -5,6 +5,9 @@
 \alias{psid_controls}
 \title{Dehejia, Rajeev H. and Sadek Wahba (2002) "Propensity Score-Matching Methods for Nonexperimental Causal Studies" Review of Economics and Statistics 84(1) February, 151-161. 1}
 \format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 2490 rows and 11 columns.}
+\source{
+\url{http://www.uh.edu/~adkugler/Dehejia&Wahba.pdf}
+}
 \usage{
 psid_controls
 }

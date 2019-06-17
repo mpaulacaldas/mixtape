@@ -5,6 +5,9 @@
 \alias{castle-doctrine-2000-2010}
 \title{Cheng, Cheng and Mark Hoekstra (2013) "Does Strengthening Self-Defense Law Deter Crime or Escalate Violence? Evidence from Expansions to Castle Doctrine" 48(3) pp. 821-854.}
 \format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 550 rows and 41 columns.}
+\source{
+\url{http://jhr.uwpress.org/content/48/3/821.abstract}
+}
 \usage{
 castle-doctrine-2000-2010
 }

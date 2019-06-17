@@ -5,6 +5,9 @@
 \alias{ajrcomment}
 \title{Albouy, David Y. (2012) "The Colonial Origins of Comparative Development: An Empirical Investigation: Comment", AER, 102(6), pp. 3059-3076}
 \format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 64 rows and 43 columns.}
+\source{
+\url{https://pdfs.semanticscholar.org/f179/00569cfd18339b3dbc53e66e2718b5db4a9c.pdf}
+}
 \usage{
 ajrcomment
 }

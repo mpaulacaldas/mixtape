@@ -5,6 +5,9 @@
 \alias{star_sw}
 \title{Estimates-of-Education-Production Krueger, Alan B. (1999) "Experiental Estimates of Education Production Functions", Quarterly Journal of Economics 114(2) May, 497-532. 1}
 \format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 11598 rows and 40 columns.}
+\source{
+\url{https://academic.oup.com/qje/article/114/2/497/1844226/Experimental-Estimates-of-Education-Production}
+}
 \usage{
 star_sw
 }

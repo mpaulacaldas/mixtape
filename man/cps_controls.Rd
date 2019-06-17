@@ -9,6 +9,6 @@
 cps_controls
 }
 \description{
-Dehejia, Rajeev H. and Sadek Wahba (2002) "Propensity Score-Matching Methods for Nonexperimental Causal Studies" Review of Economics and Statistics 84(1) February, 151-161.
+@source \url{http://www.uh.edu/~adkugler/Dehejia&Wahba.pdf}
 }
 \keyword{datasets}

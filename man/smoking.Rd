@@ -5,6 +5,9 @@
 \alias{smoking}
 \title{Abadie, Alberto, Alexis Diamond and Jens Hainmueller (2010) "Synthetic Control Methods for Comparative Case Studies: Estimating the Effect of California's Tobacco Control Program" Journal of the American Statistical Association, 105(490), June, 493-505. 1}
 \format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1209 rows and 7 columns.}
+\source{
+\url{http://economics.mit.edu/files/11859}
+}
 \usage{
 smoking
 }

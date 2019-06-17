@@ -5,6 +5,9 @@
 \alias{titanic}
 \title{Titanic manifest, both survivors and those who perished along several dimensions (e.g., sex, age, passenger class) 2}
 \format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 2201 rows and 4 columns.}
+\source{
+\url{https://www.dropbox.com/s/fxuph22p88vkacc/titanic3_readme.pdf?dl=0}
+}
 \usage{
 titanic
 }

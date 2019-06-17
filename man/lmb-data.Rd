@@ -5,6 +5,9 @@
 \alias{lmb-data}
 \title{Affect-or-Elect-Policies-Evidence-from Lee, David S., Enrico Moretti, and Matthew J. Butler (2004), "Do Voters Affect or Elect Policies? Evidence from the U.S. House", August, 119(3), 807-859. 1}
 \format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 13588 rows and 178 columns.}
+\source{
+\url{https://academic.oup.com/qje/article/119/3/807/1938834/Do-Voters-Affect-or-Elect-Policies-Evidence-from}
+}
 \usage{
 lmb-data
 }

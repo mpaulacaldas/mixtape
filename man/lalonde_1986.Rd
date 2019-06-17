@@ -5,6 +5,9 @@
 \alias{lalonde_1986}
 \title{LaLonde, Robert J. "Evaluating the Econometric Evaluations of Training Programs with Experimental Data" AER, 76(4) September, 604-620. 1}
 \format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 722 rows and 10 columns.}
+\source{
+\url{http://people.hbs.edu/nashraf/LaLonde_1986.pdf}
+}
 \usage{
 lalonde_1986
 }

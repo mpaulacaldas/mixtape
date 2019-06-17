@@ -5,6 +5,9 @@
 \alias{basque}
 \title{Abadie, Alberto and Javier Gardeazabal (2003) "The Economic Costs of Conflict: A Case Study of the Basque Country", AER, 93(1), March, pp. 113-132}
 \format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 774 rows and 23 columns.}
+\source{
+\url{http://www.nyu.edu/gsas/dept/politics/faculty/beck/abadie_aer.pdf}
+}
 \usage{
 basque
 }

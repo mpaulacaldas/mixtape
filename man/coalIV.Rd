@@ -5,6 +5,9 @@
 \alias{coalIV}
 \title{Black, Dan A., Terra G. McKinnish and Seth G. Sanders (2003) "Does the Availability oof High-wage Jobs from Low-skilled Men Affect Welfare Expenditures? Evidence from Shocks to the Steel and Coal Industries", Journal of Public Economics, 87, 1921-1942}
 \format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 8175 rows and 10 columns.}
+\source{
+\url{https://www.dropbox.com/s/b1wn1qxbvfqmfd8/coalIV.dta?dl=0}
+}
 \usage{
 coalIV
 }

@@ -5,6 +5,9 @@
 \alias{margin_victory}
 \title{Beland, Louis-Phillippe (2015) "Political Parties and Labor-Market Outcomes: Evidence from US States" AEJ: Applied, 7(4) October, 198-220. 1}
 \format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1494 rows and 4 columns.}
+\source{
+\url{https://www.aeaweb.org/articles?id=10.1257/app.20120387}
+}
 \usage{
 margin_victory
 }

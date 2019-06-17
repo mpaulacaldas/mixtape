@@ -5,6 +5,9 @@
 \alias{leoka2004}
 \title{UCR and LEOKA files, 1960-2005, from FBI 1}
 \format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 20585 rows and 10 columns.}
+\source{
+\url{http://eml.berkeley.edu/~jmccrary/UCR/index.html}
+}
 \usage{
 leoka2004
 }

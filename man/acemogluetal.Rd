@@ -5,6 +5,9 @@
 \alias{acemogluetal}
 \title{Acemoglu, et al. (2001) "The Colonial Origins of Comparative Development: An Empirical Investigation", AER, 91(5) December, pp. 1369-1401.}
 \format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 64 rows and 8 columns.}
+\source{
+\url{http://economics.mit.edu/files/4123}
+}
 \usage{
 acemogluetal
 }
