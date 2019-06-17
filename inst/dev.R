@@ -68,3 +68,8 @@ content <- tibble(path = files, lines = titles) %>%
 
 use_r("data")
 write_over("R/data.R", content)
+
+# Tibble ------------------------------------------------------------------
+
+use_tibble()
+use_r("mixtape-package.R")
