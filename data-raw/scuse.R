@@ -30,6 +30,10 @@ download_scuse <- function(file) {
 # Message shows that card91.zip could not be downloaded
 walk(files_with_ending, download_scuse)
 
+# Download files that were not captured by the regex
+missing_files <- c("leoka2004.dta", "leoka2005.dta", "ucr2004.dta", "ucr2005.dta")
+walk(missing_files, download_scuse)
+
 # Transform to rds --------------------------------------------------------
 
 dta_paths <- dir("data-raw", pattern = "dta$", recursive = TRUE, full.names = TRUE)
