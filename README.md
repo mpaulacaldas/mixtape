@@ -7,6 +7,13 @@
 
 <!-- badges: end -->
 
+> Turns out there is already another version of this package, with
+> better documentation of the data sets:
+> <https://github.com/johnson-shuffle/mixtape>. I suggest using that
+> instead.
+
+<br/>
+
 This package contains the data sets for [“Causal Inference: The
 Mixtape”](http://scunning.com/mixtape.html).
 
