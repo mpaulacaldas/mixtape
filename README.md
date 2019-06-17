@@ -8,7 +8,7 @@
 <!-- badges: end -->
 
 This package contains the data sets for [“Causal Inference: The
-Mixtape”](http://scunning.com/mixtape.html) in an R-readable format.
+Mixtape”](http://scunning.com/mixtape.html).
 
 ## Installation
 
