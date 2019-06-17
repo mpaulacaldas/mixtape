@@ -10,3 +10,5 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
 Imports: 
     tibble
+URL: https://github.com/mpaulacaldas/mixtape
+BugReports: https://github.com/mpaulacaldas/mixtape/issues
