@@ -1,6 +1,12 @@
 # Steps used to create the package (not super thorough)
 
 library(usethis)
+library(purrr)
+library(pdftools)
+library(stringr)
+library(tibble)
+library(tidyr)
+library(dplyr)
 
 # Download pdfs and do files ----------------------------------------------
 
@@ -28,3 +34,37 @@ use_data_raw("scuse")
 # Set-up documentation ----------------------------------------------------
 
 use_readme_rmd()
+
+# Document data sets
+use_roxygen_md()
+
+txt <- paste0(pdf_text("inst/scuse_files.pdf"), collapse = "\n")
+
+titles <- txt %>%
+  str_remove_all("scuse .*\n") %>%
+  str_remove_all("http.*\n") %>%
+  str_split("\\d\\. .*\n") %>%
+  map(str_replace_all, "\n", " ") %>%
+  map(str_squish) %>%
+  pluck(1) %>%
+  str_subset("") %>%
+  str_remove_all(".*\\.pdf ")
+
+files <- txt %>%
+  str_remove_all("scuse .*\n") %>%
+  str_remove_all("http.*\n") %>%
+  str_extract_all("\\d\\. .*\n") %>%
+  pluck(1) %>%
+  str_replace("\\d\\. (.*)\\.dta\n", "\\1") %>%
+  str_remove_all("\\.dta")
+
+content <- tibble(path = files, lines = titles) %>%
+  separate_rows(path, sep = ", ") %>%
+  mutate(lines = paste0("#' ", lines, "\n#'\n", '"', path,'"\n')) %>%
+  pull(lines) %>%
+  paste0(collapse = "\n\n") %>%
+  str_split("\n") %>%
+  pluck(1)
+
+use_r("data")
+write_over("R/data.R", content)
